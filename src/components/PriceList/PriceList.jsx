@@ -10,9 +10,9 @@ const PriceList = () => {
         .then(data => setPrice(data));
     }, [])
     return (
-        <div>
+        <div className='container mx-auto'>
             <h2 className='text-5xl text-center text-purple-950 bg-purple-300 py-3'>Awesome Affordable Prices</h2>
-            <div className='grid grid-cols-3 gap-4 text-center container mx-auto'>
+            <div className='grid md:grid-cols-3 grid-cols-1 gap-4 container mx-auto'>
                 {
                     prices.map(price => <PriceCart
                         key={price.id}
