@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "Basic Membership",
+      "price": 10.99,
+      "features": [
+        "Up to 5 users",
+        "5 GB of storage",
+        "Email support",
+        "Basic reporting"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Standard Membership",
+      "price": 20.99,
+      "features": [
+        "Up to 10 users",
+        "10 GB of storage",
+        "Priority email support",
+        "Advanced reporting",
+        "Custom branding"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Premium Membership",
+      "price": 30.99,
+      "features": [
+        "Unlimited users",
+        "50 GB of storage",
+        "24/7 phone and email support",
+        "Advanced reporting",
+        "Custom branding",
+        "API access"
+      ]
+    }
+  ]
+  
