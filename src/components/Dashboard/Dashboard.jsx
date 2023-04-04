@@ -1,5 +1,6 @@
 import React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import PhoneBar from '../PhoneBar/PhoneBar';
 
 
 const Dashboard = () => {
@@ -49,7 +50,8 @@ const Dashboard = () => {
       ];
       
     return (
-        <div className='container mx-auto mt-8'>
+        <div className='flex container mx-auto mt-8 justify-around'>
+          <div>
             <LineChart
               width={700}
               height={300}
@@ -68,6 +70,10 @@ const Dashboard = () => {
 
 
             </LineChart>
+          </div>
+          <div>
+            <PhoneBar></PhoneBar>
+          </div>
         </div>
     );
 };
